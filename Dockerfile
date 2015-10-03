@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
+FROM node:latest
 
 # Install Bower & Grunt
 RUN npm install -g bower grunt-cli
